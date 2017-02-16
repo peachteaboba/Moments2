@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		8A45D2631DF9DEF300325BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45D2621DF9DEF300325BB5 /* AppDelegate.swift */; };
-		8A45D2651DF9DEF300325BB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45D2641DF9DEF300325BB5 /* ViewController.swift */; };
+		8A45D2651DF9DEF300325BB5 /* MomentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45D2641DF9DEF300325BB5 /* MomentsViewController.swift */; };
 		8A45D2681DF9DEF300325BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A45D2661DF9DEF300325BB5 /* Main.storyboard */; };
 		8A45D26B1DF9DEF300325BB5 /* moments.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A45D2691DF9DEF300325BB5 /* moments.xcdatamodeld */; };
 		8A45D26D1DF9DEF300325BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A45D26C1DF9DEF300325BB5 /* Assets.xcassets */; };
 		8A45D2701DF9DEF300325BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A45D26E1DF9DEF300325BB5 /* LaunchScreen.storyboard */; };
+		8A45D2881DF9E59F00325BB5 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45D2871DF9E59F00325BB5 /* AddEditViewController.swift */; };
+		8A45D28B1DF9F04400325BB5 /* MomentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45D28A1DF9F04400325BB5 /* MomentTableViewCell.swift */; };
+		8A45D28F1DFA0DDB00325BB5 /* AddMomentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45D28E1DFA0DDB00325BB5 /* AddMomentDelegate.swift */; };
+		8A45D2961DFA66DC00325BB5 /* ShowDetailsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45D2951DFA66DC00325BB5 /* ShowDetailsDelegate.swift */; };
+		8A45D2981DFA68A600325BB5 /* ShowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45D2971DFA68A600325BB5 /* ShowDetailsViewController.swift */; };
+		8A45D29A1DFA77ED00325BB5 /* refreshDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A45D2991DFA77ED00325BB5 /* refreshDataDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A45D25F1DF9DEF300325BB5 /* moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A45D2621DF9DEF300325BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A45D2641DF9DEF300325BB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A45D2641DF9DEF300325BB5 /* MomentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsViewController.swift; sourceTree = "<group>"; };
 		8A45D2671DF9DEF300325BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A45D26A1DF9DEF300325BB5 /* moments.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = moments.xcdatamodel; sourceTree = "<group>"; };
 		8A45D26C1DF9DEF300325BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A45D26F1DF9DEF300325BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A45D2711DF9DEF300325BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A45D2871DF9E59F00325BB5 /* AddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		8A45D28A1DF9F04400325BB5 /* MomentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentTableViewCell.swift; sourceTree = "<group>"; };
+		8A45D28E1DFA0DDB00325BB5 /* AddMomentDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMomentDelegate.swift; sourceTree = "<group>"; };
+		8A45D2951DFA66DC00325BB5 /* ShowDetailsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailsDelegate.swift; sourceTree = "<group>"; };
+		8A45D2971DFA68A600325BB5 /* ShowDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewController.swift; sourceTree = "<group>"; };
+		8A45D2991DFA77ED00325BB5 /* refreshDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = refreshDataDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				8A45D2621DF9DEF300325BB5 /* AppDelegate.swift */,
-				8A45D2641DF9DEF300325BB5 /* ViewController.swift */,
+				8A45D2641DF9DEF300325BB5 /* MomentsViewController.swift */,
+				8A45D2871DF9E59F00325BB5 /* AddEditViewController.swift */,
+				8A45D2971DFA68A600325BB5 /* ShowDetailsViewController.swift */,
 				8A45D2661DF9DEF300325BB5 /* Main.storyboard */,
 				8A45D26C1DF9DEF300325BB5 /* Assets.xcassets */,
 				8A45D26E1DF9DEF300325BB5 /* LaunchScreen.storyboard */,
 				8A45D2711DF9DEF300325BB5 /* Info.plist */,
 				8A45D2691DF9DEF300325BB5 /* moments.xcdatamodeld */,
+				8A45D28A1DF9F04400325BB5 /* MomentTableViewCell.swift */,
+				8A45D28E1DFA0DDB00325BB5 /* AddMomentDelegate.swift */,
+				8A45D2951DFA66DC00325BB5 /* ShowDetailsDelegate.swift */,
+				8A45D2991DFA77ED00325BB5 /* refreshDataDelegate.swift */,
 			);
 			path = moments;
 			sourceTree = "<group>";
@@ -94,7 +112,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Andy Feng";
 				TargetAttributes = {
 					8A45D25E1DF9DEF300325BB5 = {
@@ -140,8 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A45D2981DFA68A600325BB5 /* ShowDetailsViewController.swift in Sources */,
+				8A45D28B1DF9F04400325BB5 /* MomentTableViewCell.swift in Sources */,
+				8A45D2881DF9E59F00325BB5 /* AddEditViewController.swift in Sources */,
 				8A45D26B1DF9DEF300325BB5 /* moments.xcdatamodeld in Sources */,
-				8A45D2651DF9DEF300325BB5 /* ViewController.swift in Sources */,
+				8A45D28F1DFA0DDB00325BB5 /* AddMomentDelegate.swift in Sources */,
+				8A45D29A1DFA77ED00325BB5 /* refreshDataDelegate.swift in Sources */,
+				8A45D2651DF9DEF300325BB5 /* MomentsViewController.swift in Sources */,
+				8A45D2961DFA66DC00325BB5 /* ShowDetailsDelegate.swift in Sources */,
 				8A45D2631DF9DEF300325BB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +210,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -236,6 +261,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -306,6 +332,7 @@
 				8A45D2761DF9DEF300325BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
